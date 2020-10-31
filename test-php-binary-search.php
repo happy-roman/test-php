@@ -49,7 +49,7 @@
 
 
 	$search_val = 'ключ64'; // дальше наверно всё понятно
-	$file = ROOT.'/keynumeric.txt'; // используемый файл для тестирования работы
+	$file = ROOT.'/test.txt'; // используемый файл для тестирования работы
 	echo binarySearchByKey($file, $search_val)."</br>";
 	echo "Если искомый ключ не существует в файле: ";
 	$search_val = 'ключ322';
